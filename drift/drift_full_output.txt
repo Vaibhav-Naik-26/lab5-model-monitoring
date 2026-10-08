@@ -1,0 +1,28 @@
+
+FEATURE DRIFT (KS test and PSI)
+                     feature  ks_stat   ks_p_value    psi ks_result     psi_result
+                     alcohol   0.5000 1.891698e-34 2.9223     DRIFT    major shift
+             color_intensity   0.4067 1.433426e-22 0.9039     DRIFT    major shift
+               total_phenols   0.1067 6.580850e-02 0.0882  no drift         stable
+                         hue   0.1067 6.580850e-02 0.1396  no drift moderate shift
+                     proline   0.1033 8.121850e-02 0.1298  no drift moderate shift
+        nonflavanoid_phenols   0.0867 2.100575e-01 0.0842  no drift         stable
+                  malic_acid   0.0800 2.926469e-01 0.0734  no drift         stable
+od280/od315_of_diluted_wines   0.0733 3.958303e-01 0.0827  no drift         stable
+                         ash   0.0700 4.548928e-01 0.1150  no drift moderate shift
+                  flavanoids   0.0700 4.548928e-01 0.0700  no drift         stable
+                   magnesium   0.0633 5.849809e-01 0.0393  no drift         stable
+           alcalinity_of_ash   0.0400 9.704672e-01 0.0145  no drift         stable
+             proanthocyanins   0.0333 9.963667e-01 0.0369  no drift         stable
+
+PREDICTION DRIFT (chi-square on predicted class counts)
+reference counts (class 0,1,2): [92, 133, 75]
+current counts   (class 0,1,2): [121, 83, 96]
+chi2 = 18.101  p-value = 0.00011731016768810314
+Result: DRIFT
+
+ACCURACY
+reference window: 1.0
+current window:   0.97
+
+Saved: drift/drift_full_results.csv

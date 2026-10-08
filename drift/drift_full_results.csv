@@ -1,0 +1,14 @@
+feature,ks_stat,ks_p_value,psi,ks_result,psi_result
+alcohol,0.5,1.8916976044931988e-34,2.9223,DRIFT,major shift
+color_intensity,0.4067,1.4334261764269554e-22,0.9039,DRIFT,major shift
+total_phenols,0.1067,0.06580849821915531,0.0882,no drift,stable
+hue,0.1067,0.06580849821915531,0.1396,no drift,moderate shift
+proline,0.1033,0.0812184963146534,0.1298,no drift,moderate shift
+nonflavanoid_phenols,0.0867,0.21005749381264038,0.0842,no drift,stable
+malic_acid,0.08,0.2926468667924955,0.0734,no drift,stable
+od280/od315_of_diluted_wines,0.0733,0.3958302746926979,0.0827,no drift,stable
+ash,0.07,0.4548928024568597,0.115,no drift,moderate shift
+flavanoids,0.07,0.4548928024568597,0.07,no drift,stable
+magnesium,0.0633,0.584980918983971,0.0393,no drift,stable
+alcalinity_of_ash,0.04,0.9704671760269938,0.0145,no drift,stable
+proanthocyanins,0.0333,0.996366687488538,0.0369,no drift,stable
